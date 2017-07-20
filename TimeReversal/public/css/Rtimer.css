@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -200px;
+  width: 400px;
+  height: 80px;
+}
+.container .Rtimer-container {
+  height: 100%;
+}
+.container .Rtimer-container .Rtimer-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+  background-color: #9ac8fd;
+  color: #fff;
+  font-size: 20px;
+}
+.container .Rtimer-container .Rtimer-wrap .Rtimer-item {
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+.container .Rtimer-container .Rtimer-wrap .Rtimer-item > em {
+  vertical-align: bottom;
+  color: #0778fb;
+  font-size: 34px;
+  font-family: hannotate sc;
+}
